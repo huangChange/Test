@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ebebeb;
+}
+
+.top {
+    background: #008ead;
+    width: 100%;
+    height: 400px;
+}
+
+.container {
+    width: 500px;
+    height: 250px;
+    position: relative;
+    margin: 0 auto;
+    bottom: 125px;
+    padding-top: 20px;
+    background-color: #fff;
+}
+/* 表单位置start */
+.container .container-form {
+    width: 100%;
+    height: 70%;
+}
+
+.container .container-form form p {
+    margin: 0 auto;
+    width: 80%;
+    height: 40px;
+    border-radius: 5px;
+    line-height: 40px;
+    border: 1px solid gray;
+}
+
+.container .container-form form .pass {
+    margin-top: 20px;
+}
+
+.container .container-form form p input {
+    width: 300px;
+    height: 20px;
+    margin-left: 5px;
+    outline: 0;
+    border: 0;
+    line-height: 20px;
+}
+/* 背景图片 */
+.container .container-form form p span img {
+    margin-left: 10px;
+    height: 12px;
+}
+
+/* 表单下start(注册/忘记密码) */
+.container .bottom {
+    width: 100%;
+    height: 30%;
+    border-top: 1px solid #e7ebed;
+    display: flex;
+    flex-direction: row;
+}
+
+.container .bottom .bottom-left {
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    line-height: 75px;
+}
+.container .bottom .bottom-left .forget {
+    font-size: 12px;
+    color: #dbdbdb;
+}
+.forget:hover {
+    cursor: pointer;
+}
+
+.container .bottom .bottom-right {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+.container .bottom .bottom-right .div-regist {
+    height: 100%;
+    width: 40px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 14px;
+    color: #dbdbdb;
+}
+.btn_regist:hover {
+    cursor: pointer;
+}
+.container .bottom .bottom-right .login {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid ;
+    background-color: rgb(0,142,173);
+    color: #fff;
+    font-size: 12px;
+    margin-right: 30px;
+    margin-left: 20px;
+}
+.login:hover {
+    cursor: pointer;
+}
